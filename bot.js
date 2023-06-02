@@ -19,7 +19,7 @@ cloudinary.config({
 });
 
 // Create a Twitter stream
-const stream = twitterClient.stream('statuses/filter', { track: '@@GrabVideos' });
+const stream = twitterClient.stream('statuses/filter', { track: '@GrabVideos' });
 
 // Listen for tweet events
 stream.on('tweet', tweet => {

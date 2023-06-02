@@ -8,7 +8,7 @@ const client = new Twit({
 });
 
 // Search for tweets mentioning your bot
-client.get('search/tweets', { q: '@SprintBot', count: 10 }, (err, data, response) => {
+client.get('search/tweets', { q: '@SprintBot_Test', count: 10 }, (err, data, response) => {
     if (err) {
       console.error('Error retrieving tweets:', err);
       return;
